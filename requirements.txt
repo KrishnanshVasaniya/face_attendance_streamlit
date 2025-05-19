@@ -1,6 +1,14 @@
+# streamlit
+# opencv-python-headless
+# pandas
+# Pillow
+# numpy
+# deepface
+
 streamlit
 opencv-python-headless
 pandas
 Pillow
 numpy
-deepface
+tensorflow==2.10.1
+deepface==0.0.79
