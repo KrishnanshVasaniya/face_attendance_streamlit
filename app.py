@@ -9,7 +9,7 @@ from PIL import Image
 
 # ------------------ Setup ------------------
 st.set_page_config(page_title="Face Attendance System", layout="centered")
-st.title("🧑‍🏫 Face Attendance System (DeepFace")
+st.title("🧑‍🏫 Face Attendance System DeepFace")
 
 known_faces_dir = "known_faces"
 os.makedirs(known_faces_dir, exist_ok=True)
