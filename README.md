@@ -1,38 +1,42 @@
-# 🧑‍🏫 Face Recognition Attendance System
+# 🧑‍🏫 Face Attendance System (DeepFace + Streamlit)
 
-A Streamlit-based app to manage attendance using face recognition via webcam or image uploads.
+A simple yet powerful web app that uses **facial recognition** to mark attendance automatically using the [DeepFace](https://github.com/serengil/deepface) library. Built with Python and deployed using **Streamlit Cloud**.
 
-## 🚀 Features
+Image.png
 
-- 🔍 Real-time webcam attendance (5 seconds)
-- 📤 Upload image (group/selfie) and mark attendance
-- ➕ Register new faces via camera or from unknown matches
-- ✅ Confidence score displayed for each match
-- 📄 Attendance CSV auto-generated
+---
 
-## 📦 Tech Stack
+## 🔥 Features
 
-- Streamlit
-- OpenCV
-- face_recognition (dlib)
-- Pandas, Pillow
-- Python 3.9+
+- 🔐 Register new faces (with name & image)
+- 🧠 Face verification using DeepFace
+- 📸 Upload an image to detect and mark attendance
+- ✅ Auto-prevents duplicate entries for the same day
+- 📄 Attendance log with download as CSV
+- 🌙 Dark UI theme (customizable)
 
-## 📸 Screenshots
+---
 
-![Webcam Detection](demo1.png)
-![Upload & Register](demo2.png)
+## 🚀 Live Demo
 
-## 🧠 How to Use
+👉 **[Click to try the live app](https://faceattendanceapp-2hzmhrqzsclzdaqjbga78n.streamlit.app/#face-attendance-system-deepface)**  
+
+
+---
+
+## 📦 Installation (Local)
 
 ```bash
-# 1. Clone repo
-git clone https://github.com/<your-username>/face_attendance_streamlit.git
+# Clone the repo
+git clone https://github.com/krishnanshvasaniya/face_attendance_streamlit.git
 cd face_attendance_streamlit
 
-# 2. Install dependencies
+# Create a virtual environment (Python 3.10 recommended)
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
 pip install -r requirements.txt
 
-# 3. Run
+# Run the app
 streamlit run app.py
-```
