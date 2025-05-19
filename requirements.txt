@@ -5,10 +5,12 @@
 # numpy
 # deepface
 
-streamlit==1.45.1
+streamlit==1.20.0
 opencv-python-headless==4.8.0.76
 pandas==1.5.3
 Pillow==9.5.0
 numpy==1.24.4
 tensorflow==2.10.1
+protobuf==3.19.6
 deepface==0.0.79
+
